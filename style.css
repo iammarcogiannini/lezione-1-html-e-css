@@ -1,0 +1,28 @@
+/* Questo invece è un commento su CSS */
+/* Allineo al centro tutto il contenuto all'interno del body. */
+body {
+    text-align: center;
+}
+
+/* Aumento la dimensione del font dell'h1. */
+h1 {
+    font-size: 42px;
+}
+
+/* Imposto la dimensione del font di tutti i bottoni nella mia pagina. */
+button {
+    font-size: 18px;
+}
+
+/* 
+Imposto un colore e un colore di sfondo personalizzato per tutti i bottoni con classe delete */
+button.delete {
+    color: white;
+    background-color: red;
+}
+
+/* Imposto un colore di sfondo personalizzato da attivare solo all'hover del mouse sopra il pulsante. 
+Questo è fatto grazie al selettore :hover */
+button.delete:hover {
+    background-color: darkred;
+}
